@@ -1,6 +1,7 @@
 body {
   color: #878787;
   margin: 0;
+  font-size: 150%;
 }
 
 .main-header {
@@ -28,6 +29,11 @@ h3 {
 
 .primary-content {
   text-align: center;
+}
+
+.primary-content,
+.secondary-content {
+  width: 60%;
 }
 
 .t-border {
