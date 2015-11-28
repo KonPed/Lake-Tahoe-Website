@@ -24,14 +24,17 @@ h1 {
 }
 
 h2 {
-  font-size: 53px;
+  font-size: 3.3125em; /* 53/16 = 3.3125em */
   text-decoration: underline;
   font-weight: normal;
+  line-height: 1.1;
+  margin-bottom: 0.5em; /* 26/53 = 0.5em */
 }
 
 h3 {
-  font-size: 20px;
+  font-size: 1.25em; /* 20/16 = 1.25em */
   color: #48525c;
+  margin-bottom: 1.7em; /* 34/20 = 1.7em */
 }
 
 .primary-content,
@@ -42,16 +45,27 @@ h3 {
 .primary-content,
 .secondary-content {
   width: 60%;
+  margin: auto;
 }
 
 .wildlife {
   color: white;
   background-color: #434a52;
   padding: 18% 24%;
+  border-top: 10px solid #ffa949;
+  margin: 105px 0 60px;
 }
 
 .t-border {
   border-top: 2px solid lightgray;
+}
+
+.callout {
+  font-size: 1.25em;
+  border-bottom: 3px solid;
+  padding: 0 9px 3px;
+  margin-top: 20px;
+  display: inline-block;
 }
 
 #main-footer {
