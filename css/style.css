@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   color: #878787;
   margin: 0;
@@ -8,6 +12,7 @@ body {
   background-color: #ffa949;
   padding-top: 170px;
   height: 850px;
+  margin-bottom: 60px;
 }
 
 .title {
@@ -43,16 +48,34 @@ h3 {
   margin-bottom: 1.7em; /* 34/20 = 1.7em */
 }
 
+img {
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+
 .primary-content,
-.main-header {
+.main-header,
+#main-footer {
   text-align: center;
+}
+
+.primary-content {
+  padding-top: 25px;
+  padding-bottom: 95px;
+}
+
+.secondary-content {
+  padding-top: 80px;
+  padding-bottom: 70px;
 }
 
 .primary-content,
 .secondary-content {
-  width: 860px;
-  padding: 0 50px;
-  margin: auto;
+  width: 75%;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin: 0 auto;
+  max-width: 900px;
 }
 
 .wildlife {
