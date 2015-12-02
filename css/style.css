@@ -12,8 +12,13 @@ body {
   padding-top: 170px;
   height: 850px;
   margin-bottom: 60px;
-  background: #ffa949 url("../img/mountains.jpg") no-repeat center / cover;
-  background-image: radial-gradient(circle at top right, #ffa949, firebrick);
+  background-color: #ffa949;
+  background-image: linear-gradient(#ffa949, transparent 90%),
+  linear-gradient(to top,#fff, transparent 30%),
+  url("../img/mountains.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .title {
