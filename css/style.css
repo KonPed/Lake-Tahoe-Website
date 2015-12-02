@@ -13,6 +13,7 @@ body {
   height: 850px;
   margin-bottom: 60px;
   background: #ffa949 url("../img/mountains.jpg") no-repeat center / cover;
+  background-image: radial-gradient(circle at top right, #ffa949, firebrick);
 }
 
 .title {
